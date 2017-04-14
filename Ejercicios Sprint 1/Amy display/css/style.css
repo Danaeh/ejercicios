@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+li{
+  display: inline;
+  margin: 6px;
+}
+.ejercicio2{
+  margin: auto;
+  max-width: 600px;
+  width:86%;
+}
+/*body{
+  border: 8pxsolid black
+}
+
+/*Lo que pides de que el body tenga un borde me suena un poco extraño,
+yo el borde para que quede como se ve en la imagen lo meteria en
+el div, no en el body* con un padding de 150*/
+
+.ejercicio3{
+  display:block;
+  margin: auto;
+  margin-top: 106px;
+  width:850px;
+  padding: 150px;
+  border: 8px solid black;
+
+
+}
+#nombre{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#titulo{
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+p{
+  font-size: 18px;
+
+  margin-bottom: 27px;
+}
+a{
+  padding: 8px, 16px;
+
+}
