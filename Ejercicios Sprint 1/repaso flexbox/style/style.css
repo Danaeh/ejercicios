@@ -39,3 +39,52 @@ main{
 footer{
   border-top: 2px solid grey;
 }
+.pop{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ background-color: black;
+ opacity: 0.8;
+ z-index: 2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.pop2{
+ width: 400px;
+ height: 300px;
+ max-width: 45%;
+ max-height: 60%;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.hola{
+ text-align: center;
+ max-width: 300px;
+}
+
+.buttons{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+
+#re{
+ border: 2px solid black;
+ border-radius: 5%;
+ padding: 10px 20px;
+ color: black;
+}
+
+#su{
+ color: white;
+ border-radius: 5%;
+ padding: 10px 20px;
+ background-color: black;
+}
