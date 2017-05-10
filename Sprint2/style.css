@@ -1,0 +1,24 @@
+h2{
+  font-weight: bold;
+}
+h3{
+  color: grey;
+}
+.botones a{
+  padding: 15px;
+  border-radius: 5px;
+}
+#gris{
+  background-color: grey;
+}
+#blanco{
+  border: 3px solid grey;
+}
+.padre{
+  display: flex;
+}
+.central{
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
