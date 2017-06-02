@@ -93,10 +93,11 @@ p{
   width: 60%;
 }
 
-.footer{
+footer{
   display: flex;
   justify-content: space-around;
   background-color: rgba(128, 128, 128, 0.4);
+  height: 50px;
 
 }
 .text-position{
@@ -151,5 +152,16 @@ p{
   }
   #current {
     background-color: rgba(123, 123, 138, 0.8);
+  }
+
+  .btn-footer{
+    width: 120px;
+    height: 80px;
+  }
+  footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.4);
+    height: 120px;
   }
 }

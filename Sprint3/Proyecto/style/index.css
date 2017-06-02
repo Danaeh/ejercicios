@@ -105,13 +105,14 @@ p {
 .little_image {
   width: 60%; }
 
-.footer {
+footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: rgba(128, 128, 128, 0.4); }
+  background-color: rgba(128, 128, 128, 0.4);
+  height: 50px; }
 
 .text-position {
   text-align: center; }
@@ -182,6 +183,19 @@ p {
     padding: 18px; }
 
   #current {
-    background-color: rgba(123, 123, 138, 0.8); } }
+    background-color: rgba(123, 123, 138, 0.8); }
+
+  .btn-footer {
+    width: 120px;
+    height: 80px; }
+
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.4);
+    height: 120px; } }
 
 /*# sourceMappingURL=index.css.map */
