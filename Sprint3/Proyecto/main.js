@@ -1,9 +1,9 @@
-var list = document.querySelector(.list);
-var btn-menu=document.querySelector(.btn-menu);
+"use strict";
+var list = document.querySelector(".list");
+var btnmenu=document.querySelector("#btnmenu");
 
-btn-menu.addEventListener(click, showMenu);
+btnmenu.addEventListener("click", showMenu);
 
-function  showMenu(){
-  if
-
+function showMenu(){
+  list.classList.toggle("list-show");
 }

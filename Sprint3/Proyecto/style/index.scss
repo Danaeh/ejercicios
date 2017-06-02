@@ -22,6 +22,12 @@ body{
   margin-bottom: 0px;
   display: none;
 }
+.list-show{
+  display: block;
+  position: fixed;
+  top:35px;
+  left: 20%;
+}
 .link{
   text-decoration: none;
   color: white;
@@ -31,11 +37,11 @@ body{
   border-bottom: 2px #403a3a solid;
   display: block;
   padding: 3px;
-  background-color: rgba(191, 191, 191, 0.5);
+  background-color: rgba(102,134,172, 0.5);
   width: 87%;
 }
 .slide{
-  position: absolute;
+  position: relative;
   top: 0;
   z-index: -1;
   width: 100%;
@@ -45,6 +51,7 @@ body{
 }
 .headline{
   font-size: 3em;
+  text-align: center;
 }
 
 .pill{
@@ -52,6 +59,13 @@ body{
 }
 .mid{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p{
+  margin-left: 10px;
+  margin-right: 2px;
 }
 .empty{
   display: none;
@@ -80,10 +94,14 @@ body{
 }
 
 .footer{
+  display: flex;
+  justify-content: space-around;
   background-color: rgba(128, 128, 128, 0.4);
 
 }
-
+.text-position{
+  text-align: center;
+}
 @media(min-width:768px){
   .container{
     display: flex;
@@ -96,6 +114,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     margin-right: 5px;
   }
   .empty{
@@ -103,5 +122,34 @@ body{
   }
   .mid{
     width: 60%;
+  }
+  .nav-mobile{
+    display: none;
+  }
+  .nav-icon{
+    height: 50px;
+  }
+  .nav{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(191, 191, 191, 0.5);
+    position: absolute;
+  }
+  .list-pc{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+  }
+  .list-element{
+    padding: 18px;
+  }
+  #current {
+    background-color: rgba(123, 123, 138, 0.8);
   }
 }
