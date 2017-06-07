@@ -73,14 +73,10 @@ body{
 .slide-three {
   background-image: url("../images/Pueblo 50 opacidad.jpg");
 }
-.maintitle{
-  color: white;
-  font-size: 4em;
-  margin-bottom: 5px;
-}
+
 .buttons {
   position: relative;
-  top: 10%;
+  top: -25%;
 }
 
 .buttons button {
@@ -108,16 +104,18 @@ body{
   justify-content: space-around;
   align-items: center;
 }
-
+.maintitle{
+  color: white;
+  font-size: 3em;
+  margin-bottom: 5px;
+}
 .title {
-  width: 45%;
+  width: 100%;
   position: relative;
-  bottom: -25%;
-  left: 25%;
+  bottom: -5%;
 }
 .title p {
   color: white;
-  font-size: 1.5em;
 }
 
 .pill{
@@ -129,7 +127,7 @@ body{
   flex-direction: column;
   justify-content: center;
 }
-p{
+.container p{
   margin-left: 10px;
   margin-right: 2px;
 }
@@ -176,10 +174,25 @@ footer{
 @media(min-width:768px){
   .container{
     display: flex;
+  }
     .headline{
       font-size: 5em;
     }
-  }
+    .maintitle{
+      color: white;
+      font-size: 4em;
+      margin-bottom: 5px;
+    }
+    .title {
+      width: 45%;
+      position: relative;
+      bottom: -25%;
+      left: 25%;
+    }
+    .buttons {
+      position: relative;
+      top: 10%;
+    }
   .pill{
     width: 25%;
     display: flex;

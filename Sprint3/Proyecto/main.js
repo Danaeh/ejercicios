@@ -21,8 +21,8 @@ var currentButtonId = "one";
 
 var image2 = new Image();
 image2.src = "images/Pueblo 50 opacidad.jpg";
-var image2 = new Image();
-image2.src = "images/Manos abuela 50 opacidad.jpg";
+var image3 = new Image();
+image3.src = "images/Manos abuela 50 opacidad.jpg";
 
 function changeOne(event) {
   var currentButton = event.currentTarget;
